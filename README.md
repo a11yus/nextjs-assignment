@@ -1,36 +1,36 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Next.js  Project
 
-## Getting Started
+This project is a fully responsive Next.js website with a modern layout, supporting various features like a global store using Zustand, horizontal scroll bar for managing data, responsive sidebar, login/logout functionality, and a hamburger menu using Tailwind CSS. The project also utilizes React Icons for logos.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Fully Responsive Website Layout**: The layout adjusts seamlessly for desktop, tablet, and mobile views.
+  
+- **Global State Management with Zustand**: Zustand is used for global state management. This allows components to share data across the application, such as user authentication status.
+  
+- **Horizontal Scroll Bar**: A horizontal scroll bar is used for displaying large datasets. This allows for smooth scrolling through long lists or data tables.
+  
+- **Responsive Sidebar**: A sidebar that adapts based on the screen size, ensuring the layout remains user-friendly across all devices. On mobile, the sidebar is hidden and can be toggled via a hamburger menu.
+  
+- **Login and Logout Functionality**: Secure login and logout functionality, which stores user data using Zustand and localStorage.
+  
+- **Hamburger Menu**: A hamburger menu is used to navigate through the application on mobile devices, providing a cleaner UI.
+  
+- **React Icons for Logos**: The application uses React Icons for rendering logos and icons throughout the application. Icons are used in the navbar, sidebar, and various sections of the app.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Technologies Used
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- **Next.js**: A React framework for building the application, offering server-side rendering, static site generation, and API routes.
+  
+- **Tailwind CSS**: A utility-first CSS framework for styling the application, ensuring fast and consistent design across the project.
+  
+- **Zustand**: A small, fast, and scalable state management tool used for handling global state (e.g., user authentication).
+  
+- **React Icons**: A library of icons for React, used for displaying logos and other icons in the app.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Setup
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. **Clone the Repository**:
+   First, clone the repository to your local machine.
+   ```bash
+   git clone https://github.com/a11yus/nextjs-assignment.git
