@@ -1,5 +1,4 @@
-# Next.js  Project
-
+# Next.js Project
 This project is a fully responsive Next.js website with a modern layout, supporting various features like a global store using Zustand, horizontal scroll bar for managing data, responsive sidebar, login/logout functionality, and a hamburger menu using Tailwind CSS. The project also utilizes React Icons for logos.
 
 ## Features
@@ -34,3 +33,5 @@ This project is a fully responsive Next.js website with a modern layout, support
    First, clone the repository to your local machine.
    ```bash
    git clone https://github.com/a11yus/nextjs-assignment.git
+   then npm install command for package installation
+   at last for running in your local machine npm run dev
