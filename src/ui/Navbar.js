@@ -10,7 +10,8 @@ import { RxCross1 } from "react-icons/rx";
 const Navbar = () => {
   const { user, logout } = useAuthStore();
   const router = useRouter();
-  const storedUsername = localStorage.getItem("username");
+  const storedUsername =
+    typeof window !== "undefined" ? localStorage.getItem("username") : null;
   const [menuOpen, setMenuOpen] = useState(false);
 
   const toggleMenu = () => {
