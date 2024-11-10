@@ -20,7 +20,7 @@ const Navbar = () => {
 
   const handleLogout = () => {
     logout();
-    localStorage.removeItem("username");
+    typeof window !== "undefined" ? localStorage.removeItem("username") : null;
     router.push("/");
   };
 
