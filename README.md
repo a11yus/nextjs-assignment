@@ -36,7 +36,6 @@ This project is a fully responsive Next.js website with a modern layout, support
 
 **For running in the local machine**:
    Run this commands,
-   ```bash
    - npm install
    - npm run dev
 
