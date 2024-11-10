@@ -33,5 +33,3 @@ This project is a fully responsive Next.js website with a modern layout, support
    First, clone the repository to your local machine.
    ```bash
    git clone https://github.com/a11yus/nextjs-assignment.git
-   then npm install command for package installation
-   at last for running in your local machine npm run dev
