@@ -4,8 +4,7 @@ import React from "react";
 const data = Array.from({ length: 24 }, (_, i) => `Card ${i + 1}`); // Sample data
 
 export default function HorizontalGrid() {
-  const storedUsername =
-    typeof window !== "undefined" ? localStorage.getItem("username") : null;
+  const storedUsername = localStorage.getItem("username");
   return (
     <>
       {storedUsername ? (

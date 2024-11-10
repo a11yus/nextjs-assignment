@@ -10,8 +10,7 @@ import { RxCross1 } from "react-icons/rx";
 const Navbar = () => {
   const { user, logout } = useAuthStore();
   const router = useRouter();
-  const storedUsername =
-    typeof window !== "undefined" ? localStorage.getItem("username") : null;
+  const storedUsername = localStorage.getItem("username");
   const [menuOpen, setMenuOpen] = useState(false);
 
   const toggleMenu = () => {
@@ -20,7 +19,7 @@ const Navbar = () => {
 
   const handleLogout = () => {
     logout();
-    typeof window !== "undefined" ? localStorage.removeItem("username") : null;
+    localStorage.removeItem("username");
     router.push("/");
   };
 
@@ -46,7 +45,7 @@ const Navbar = () => {
               alt="Casino Slots"
               width={60}
               height={0}
-              className="rounded-lg p-0"
+              className="rounded-lg"
             />
 
             {/* Right: Logout and Hamburger Menu */}
