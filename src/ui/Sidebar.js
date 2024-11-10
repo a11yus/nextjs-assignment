@@ -6,7 +6,10 @@ import "../app/globals.css";
 
 export const Sidebar = () => {
   const pathname = usePathname();
-  const storedUsername = localStorage.getItem("username");
+
+  const storedUsername =
+    typeof window !== "undefined" ? localStorage.getItem("username") : null;
+
   return (
     <>
       {storedUsername ? (

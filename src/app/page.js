@@ -1,6 +1,6 @@
 "use client";
 import { useRouter } from "next/navigation";
-import  useAuthStore  from "../store/authStore";
+import useAuthStore from "../store/authStore";
 import { useState } from "react";
 
 export default function Login() {
@@ -13,7 +13,7 @@ export default function Login() {
     e.preventDefault();
     if (username && password) {
       login(username);
-    localStorage.setItem("username", username);
+      localStorage.setItem("username", username);
       router.push("/dashboard");
     }
   };
